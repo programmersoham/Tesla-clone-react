@@ -11,12 +11,12 @@ function Header() {
 
     return (
         <Container>
-            <a href="">
+            <a href="https://r.mtdv.me/c6APejCmd" target="_blank" rel="noreferrer">
                 <img alt="tesla logo" src="/images/logo.svg" />
             </a>
             <Menu>
                 {cars && cars.map((car, index) =>
-                    <a key={index} href="">{car}</a>
+                    <a key={index} href="https://r.mtdv.me/c6APejCmd" target="_blank" rel="noreferrer">{car}</a>
                 )}
             </Menu>
             <RightMenu>
@@ -29,7 +29,7 @@ function Header() {
                     <CustomClose onClick={() => setBurgerStatus(false)} />
                 </CloseWrapper>
                 {cars && cars.map((car, index) =>
-                    <li key={index}><a href="">{car}</a></li>
+                    <li key={index}><a href="https://r.mtdv.me/c6APejCmd" target="_blank" rel="noreferrer">{car}</a></li>
                 )}
                 <li><a href="https://r.mtdv.me/c6APejCmdF" target="_blank" rel="noreferrer">Existing Inventory</a></li>
                 <li><a href="https://r.mtdv.me/c6APejCmdF" target="_blank" rel="noreferrer">Used Inventory</a></li>
